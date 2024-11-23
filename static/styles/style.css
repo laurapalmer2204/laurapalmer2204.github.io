@@ -85,8 +85,10 @@
 	margin: 30px;
 }
 
-.carousel-inner .carousel-item img{
-    padding: 10%;
-    padding-left: 30%;
-    padding-right: 0;
+.carousel-inner .carousel-item img {
+    margin: 0 auto;
+    /* this will align the image to center. */
+    width: auto;
+    /* for those images which don't have a width specified, but has a max-height will be auto adjusted */
+    height:460px;
 }

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Свой CSS -->
+    <link rel="stylesheet" href="static/styles/style.css">
+    <link rel="stylesheet" href="static/styles/bgvideo.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand me-auto" href="#">Вечная память</a>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Вечная память</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+                        </button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active mx-lg-5" aria-current="page" href="index.html">Главная</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-5" href="archive.html">Примеры</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-5" href="contacts.html">Контакты</a>
+                            </li>
+
+
+                            <!-- <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" 
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul> -->
+                    </div>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+
+
+    </header>
+
+
+
+    <!-- Hero section -->
+    <div class="bg-video mb-4">
+        <video src="static/files/video-bg.mp4" type="video/mp4" autoplay muted loop></video>
+        <div class="effect"></div>
+        <div class="video-text">
+            <h1 class="text-center text-white display-1 mb-4">«Вечная память»</h1>
+
+            <div style="height: 3px; background-color: white;"></div>
+
+            <h1 class="text-center text-white display-5 mt-4">Мемориальный портал</h1>
+        </div>
+    </div>
+
+
+    <section id="home" class="home-section">
+        <div class="container d-flex mb-4 flex-column">
+
+            <!-- <div class="container bg-light mt-4 mb-4 rounded-3">
+                <div class="row mt-4">
+                    <h1 class="text-center">"Человек жив то тех пор, пока жива память о нем."</h1>
+                </div>
+            </div> -->
+
+            <div class="container bg-light mt-4 mb-4 rounded-3">
+                <div class="row">
+                    <h2 class="text-center">"Человек жив то тех пор, пока жива память о нем."</h2>
+                    <p class="lead text-black">
+                        Мы предлагаем вам возможность создать страницу памяти
+                        вашего близкого человека на которой будет отражена вся та информация, которую
+                        вы хотели бы о нем рассказать. Это могут быть факты из жизни, достижения,
+                        фотографии, цитаты, слова памяти от родственников и друзей. После того как вы
+                        отправите нам информацию мы создаем страницу-биографию вашего родственника.
+                        <br>
+                        Примеры того, как будет выглядеть данная страница вы можете найти в
+                        разделе <a href="archive.html" class="btn btn-outline-success">Примеры</a>.
+
+
+                </div>
+            </div>
+
+            <div class="container-fluid mt-4 mb-4">
+                <div class="row">
+                    <div class="col-lg-1 col-md-12">
+
+                    </div>
+                    <div class="col-lg-10 col-md-12">
+                        <div class="card mb-4 bg-light">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="static/images/qr.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <p class="card-text lead">После того, как страница с биографией
+                                            созданна, мы создаем и отправляем вам QR код, отсканировав 
+                                            который с помощью смартфона каждый желающий сможет посетить 
+                                            данную страницу и ознакомиться с биографией вашего родственника.
+                                            <br>
+                                            QR код размещается на надгробии умершего человека.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12 col-md-12 text-center mt-4 mb-4">
+                            <p class="text-white h2">Заинтересовали наши услуги?<br>Свяжитесь с нами в разделе:</p>
+                            <a href="contacts.html" class="btn btn-success">Контакты</a>
+                        </div>
+                        <div class="col-lg-12 col-md-12 text-center mb-4">
+                            <img class="content-anim" style="width: 60px;" src="static/files/phone.png" alt="">
+                        </div>
+
+                        <div class="col-lg-12 col-md-12">
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+    </section>
+
+
+
+    <footer>
+        <div class="container-fluid mt-4">
+            <div class="row">
+                <div class="col-lg-4 col-md-12">
+                    <p> </p>
+                    <p class="lead text-black">Телефон: +7-xxx-xxx-xx-xx </p>
+                    <p class="lead text-black">Email: xxxxxxxxxx@******.ru </p>
+                    <p class="lead text-black">Телеграм: <a href="#"  class="btn">
+                        <img style="width: 40px;" src="static/files/tg.png" alt="">
+                    </a> </p>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                </div>
+                <div class="col-lg-4 col-md-12">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
